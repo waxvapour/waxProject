@@ -1,0 +1,1 @@
+/* javascript specific to Waxvapour.com only */
