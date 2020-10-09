@@ -1,3 +1,3 @@
-<?php
-require_once 'footer.php';
-?>
+<?php require_once('./core/includes/basicHead.php'); ?>
+
+<?php require_once('./core/includes/footer.php'); ?>
