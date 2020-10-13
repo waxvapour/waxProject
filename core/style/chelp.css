@@ -1,1 +1,46 @@
 /* CSS specific to Waxvapour.com only */
+
+/*	Fonts	*/
+@font-face{
+  font-family: "pix1";
+  src: url("../Assets/Fonts/Pixel.ttf") format("truetype");
+}@font-face{
+  font-family: "pix2";
+  src: url("../Assets/Fonts/pcsenior.ttf") format("truetype");
+}@font-face{
+  font-family: "pix3";
+  src: url("../Assets/Fonts/DisposableDroidBB.ttf") format("truetype");
+}@font-face{
+  font-family: "pix4";
+  src: url("../Assets/Fonts/lunchds.ttf") format("truetype");
+}@font-face{
+  font-family: "pix5";
+  src: url("../Assets/Fonts/manaspc.ttf") format("truetype");
+}@font-face{
+  font-family: "pix6";
+  src: url("../Assets/Fonts/orangekid.ttf") format("truetype");
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.desktop{
+  position: absolute;
+  opacity: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../Assets/wall1.png");
+  min-height: 100%;
+}
+
+.TaskBar{
+	font-family: pix5;
+}
+
+.Dicon{
+	font-family: pix5;
+}
